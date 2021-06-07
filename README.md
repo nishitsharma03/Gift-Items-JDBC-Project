@@ -11,4 +11,5 @@ Classes and functionalities:
 7. User -> Allows user to see all available gifts, add gifts to cart, move to checkout the cart.
 
 Setup/ Requirements -> JAVA environment, JDBC and Oracle.
+
 Lauch the application by running main.java file.
