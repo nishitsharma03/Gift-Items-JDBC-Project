@@ -74,28 +74,10 @@ public class Cart {
 							{
 								Integer giftID = r.getInt("GIFTID");
 								Integer quant = r.getInt("QUANTITY");
-								//String giftq = "Select * from giftitems where ID=" + giftID;
-								//System.out.println("gifftttttttttttt" + giftq);
+								
 
 								Integer price = -1;
-//								try {
-//									tp = stmt.executeQuery(giftq);
-////			               					try
-////			               					{
-//									if (tp.next()) {
-//										//price = quant * tp.getInt("PRICE");
-//									}
-//									//}
-////			               					catch(Exception e)
-////			               					{
-////			               						System.out.println("GIFT ID not retreived");
-////			               						System.out.println(e);
-////			               					}
-//								}
-//
-//								catch (Exception e) {
-//									System.out.println("Databse error");
-//									System.out.println(e);
+
 //								}
 								System.out.println(giftID + " " + quant + " " + price);
 
@@ -142,8 +124,6 @@ public class Cart {
 
 								}
 
-								//String delf = "Delete from usercart where CUSTOMERID=" + Id1;
-								//stmt.executeUpdate(delf);
 
 							} catch (Exception e) {
 
